@@ -12,12 +12,9 @@ import java.util.Map;
 
 /**
  * 类名称：ReduceAndCollectTest
- * ********************************
+ *
  * <p>
  * 类描述：归约与汇总操作
- *
- * @author zhangxiaoxi
- * @date 下午7:45
  */
 public class ReduceAndCollectTest {
 
@@ -189,4 +186,6 @@ public class ReduceAndCollectTest {
 
         System.out.println(JSON.toJSONString(collect, true));
     }
+
+
 }

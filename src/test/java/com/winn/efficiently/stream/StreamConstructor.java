@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Arrays;
+import java.util.stream.Collector;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -42,7 +43,7 @@ public class StreamConstructor {
     @Test
     public void streamFromFile() throws IOException {
         // TODO 此处替换为本地文件的地址全路径
-        String filePath = "";
+        String filePath = "D:\\project\\other\\efficiently\\src\\test\\java\\com\\winn\\efficiently\\stream\\StreamConstructor.java";
 
         Stream<String> stream = Files.lines(
                 Paths.get(filePath));
@@ -64,5 +65,6 @@ public class StreamConstructor {
                 .forEach(System.out::println);
 
     }
+
 
 }

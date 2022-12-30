@@ -63,5 +63,4 @@ public class StreamCollector {
         System.out.println(
                 JSON.toJSONString(partition, true));
     }
-
 }

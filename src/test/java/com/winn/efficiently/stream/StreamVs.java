@@ -138,7 +138,7 @@ public class StreamVs {
                 /**
                  * 获取商品名称
                  */
-                .map(sku -> sku.getSkuName())
+                .map(Sku::getSkuName)
 
                 /**
                  * 收集结果
